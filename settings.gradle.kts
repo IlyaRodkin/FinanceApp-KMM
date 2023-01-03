@@ -15,4 +15,16 @@ dependencyResolutionManagement {
 
 rootProject.name = "FinanceApp-KMM"
 include(":androidApp")
-include(":shared")
+
+include(":common:dashboard:api")
+include(":common:dashboard:data")
+include(":common:dashboard:compose")
+include(":common:dashboard:presentation")
+
+include(":common:core")
+include(":common:core-compose")
+include(":common:core-utils")
+include(":common:umbrella-ios")
+include(":common:umbrella-compose")
+include(":common:umbrella-core")
+
