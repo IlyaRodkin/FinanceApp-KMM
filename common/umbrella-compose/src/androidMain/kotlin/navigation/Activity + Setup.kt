@@ -13,7 +13,7 @@ import theme.AppTheme
 import theme.Theme
 
 fun ComponentActivity.setupThemedNavigation() {
-   /* val rootController = RootComposeBuilder().apply { generateGraph() }.build()
+    val rootController = RootComposeBuilder().apply { generateGraph() }.build()
     rootController.setupWithActivity(this)
     rootController.setupWithViewModels()
 
@@ -30,5 +30,5 @@ fun ComponentActivity.setupThemedNavigation() {
                 }
             }
         }
-    }*/
+    }
 }

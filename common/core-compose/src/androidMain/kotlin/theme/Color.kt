@@ -16,12 +16,12 @@ data class PlayzoneColors(
 )
 
 val palette = PlayzoneColors(
-    primaryBackground = Color(0xFF050B18),
-    primaryAction = Color(0xFFF4D144),
-    primaryTextColor = Color(0xFF050B18),
+    primaryBackground = Color(0xff276c35),
+    primaryAction = Color(0xffa6d15d),
+    primaryTextColor = Color(0xff20271f),
     hintTextColor = Color(0xFF696C75),
     highlightTextColor = Color(0xFFF4D144),
-    secondaryTextColor = Color(0xFFFFFFFF),
+    secondaryTextColor = Color(0xff20271f),
     thirdTextColor = Color(0xFFEEF2FB),
     tagColor = Color(0x1844A9F4),
     tagTextColor = Color(0xFF44A9F4)
