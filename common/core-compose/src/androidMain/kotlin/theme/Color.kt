@@ -3,7 +3,7 @@ package theme
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 
-data class PlayzoneColors(
+data class FinanceAppColors(
     val primaryBackground: Color,
     val primaryAction: Color,
     val primaryTextColor: Color,
@@ -15,7 +15,7 @@ data class PlayzoneColors(
     val tagTextColor: Color
 )
 
-val palette = PlayzoneColors(
+val palette = FinanceAppColors(
     primaryBackground = Color(0xff276c35),
     primaryAction = Color(0xffa6d15d),
     primaryTextColor = Color(0xff20271f),
@@ -27,4 +27,4 @@ val palette = PlayzoneColors(
     tagTextColor = Color(0xFF44A9F4)
 )
 
-val LocalColorProvider = staticCompositionLocalOf<PlayzoneColors> { error("No default implementation") }
+val LocalColorProvider = staticCompositionLocalOf<FinanceAppColors> { error("No default implementation") }

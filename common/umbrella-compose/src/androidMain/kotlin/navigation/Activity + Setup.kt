@@ -19,8 +19,8 @@ fun ComponentActivity.setupThemedNavigation() {
 
     setContent {
         AppTheme {
-            val backgroundColor = Theme.colors.primaryBackground
-            rootController.backgroundColor = backgroundColor
+            //val backgroundColor = Theme.colors.primaryBackground
+            //rootController.backgroundColor = backgroundColor
 
             CompositionLocalProvider(
                 LocalRootController provides rootController

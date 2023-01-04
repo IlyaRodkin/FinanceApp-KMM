@@ -11,6 +11,8 @@ kotlin {
                 implementation(project(":common:core-compose"))
                 implementation(project(":common:core-utils"))
 
+                implementation(project(":common:dashboard:compose"))
+
                 //implementation(project(":common:auth:data"))
                 //implementation(project(":common:auth:compose"))
                 //implementation(project(":common:main:compose"))
