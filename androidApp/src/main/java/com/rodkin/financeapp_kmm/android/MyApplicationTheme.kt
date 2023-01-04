@@ -1,4 +1,4 @@
-package com.example.financeapp_kmm.android
+package com.rodkin.financeapp_kmm.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

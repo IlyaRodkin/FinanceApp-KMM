@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.financeapp_kmm.android"
+    namespace = "com.rodkin.financeapp_kmm.android"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.example.financeapp_kmm.android"
+        applicationId = "com.rodkin.financeapp_kmm.android"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
