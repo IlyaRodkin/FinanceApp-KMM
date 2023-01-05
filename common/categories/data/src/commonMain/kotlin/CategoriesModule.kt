@@ -2,7 +2,7 @@ import org.kodein.di.DI
 import org.kodein.di.bind
 import org.kodein.di.singleton
 
-val authModule = DI.Module("catgoriesModule") {
+val categoriesModule = DI.Module("categoriesModule") {
     bind<CategoriesRepo>() with singleton {
         CategoriesRepoImpl()
     }

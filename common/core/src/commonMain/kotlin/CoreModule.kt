@@ -9,6 +9,7 @@ val coreModule = DI.Module("coreModule") {
         serializationModule,
 //        databaseModule,
         ktorModule,
-        settingsModule
+        settingsModule,
+
     )
 }

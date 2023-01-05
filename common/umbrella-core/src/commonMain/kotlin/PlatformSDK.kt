@@ -21,6 +21,7 @@ object PlatformSDK {
                 importAll(
                     umbrellaModule,
                     coreModule,
+                    categoriesModule
                     //gamesModule,
                     //  authModule
                 )
