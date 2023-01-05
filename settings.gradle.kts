@@ -21,6 +21,11 @@ include(":common:dashboard:data")
 include(":common:dashboard:compose")
 include(":common:dashboard:presentation")
 
+include(":common:categories:api")
+include(":common:categories:data")
+include(":common:categories:compose")
+include(":common:categories:presentation")
+
 include(":common:core")
 include(":common:core-compose")
 include(":common:core-utils")
