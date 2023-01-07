@@ -7,5 +7,5 @@ import ru.alexgladkov.odyssey.compose.local.LocalRootController
 fun SplashScreen() {
     val rootController = LocalRootController.current
 
-    rootController.present(NavigationTree.Main.DashboardFlow.name)
+    rootController.present(NavigationTree.Dashboard.DashboardFlow.name)
 }

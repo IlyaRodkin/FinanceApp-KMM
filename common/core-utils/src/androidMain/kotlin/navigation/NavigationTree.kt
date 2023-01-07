@@ -10,7 +10,13 @@ object NavigationTree {
         AuthFlow, Login, Register, Forgot
     }
 
-    enum class Main {
-        Dashboard, DashboardFlow, Home, Search, Event, Videos, Profile, Game
+    enum class Dashboard {
+        Dashboard, DashboardFlow
     }
+
+    enum class Transaction {
+        Transaction, TransactionFlow
+    }
+
+
 }

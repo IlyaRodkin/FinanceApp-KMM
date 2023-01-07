@@ -6,8 +6,8 @@ import ru.alexgladkov.odyssey.compose.navigation.RootComposeBuilder
 import screen.DashboardScreen
 
 fun RootComposeBuilder.dashboardFlow() {
-    flow(name = NavigationTree.Main.DashboardFlow.name) {
-        screen(name = NavigationTree.Main.Dashboard.name) {
+    flow(name = NavigationTree.Dashboard.DashboardFlow.name) {
+        screen(name = NavigationTree.Dashboard.Dashboard.name) {
             DashboardScreen()
         }
     }

@@ -12,6 +12,7 @@ kotlin {
                 implementation(project(":common:core-utils"))
 
                 implementation(project(":common:dashboard:compose"))
+                implementation(project(":common:transaction:compose"))
 
                 implementation(Dependencies.Other.ViewModel.core)
                 implementation(Dependencies.Other.ViewModel.compose)

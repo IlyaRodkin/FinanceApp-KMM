@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Button
+import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
@@ -24,7 +25,6 @@ import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.MailOutline
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,10 +36,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.rodkin.financeapp_kmm.dashboard.compose.R
+import navigation.NavigationTree
+import ru.alexgladkov.odyssey.compose.extensions.push
+import ru.alexgladkov.odyssey.compose.local.LocalRootController
 import theme.Theme
 
 @Composable
 fun DashboardScreen() {
+
+    val rootController = LocalRootController.current
+
     Box() {
         LazyColumn(modifier = Modifier.fillMaxSize()) {
             item {
@@ -60,10 +66,13 @@ fun DashboardScreen() {
                 .padding(16.dp)
                 .size(64.dp)
                 .align(Alignment.BottomEnd),
-            onClick = { /*TODO*/ },
-            shape = RoundedCornerShape(100)
+            onClick = { rootController.push(NavigationTree.Transaction.Transaction.name) },
+            shape = RoundedCornerShape(100),
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = Theme.colors.fabButtonColor,
+            contentColor = Theme.colors.defaultBackground)
         ) {
-                Icon(imageVector = Icons.Default.Add, contentDescription = "")
+            Icon(imageVector = Icons.Default.Add, contentDescription = "")
         }
     }
 }

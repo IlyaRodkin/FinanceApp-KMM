@@ -10,5 +10,10 @@ kotlin {
 
             }
         }
+        iosMain {
+            dependencies {
+
+            }
+        }
     }
 }

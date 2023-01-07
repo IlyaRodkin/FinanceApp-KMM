@@ -26,6 +26,11 @@ include(":common:categories:data")
 include(":common:categories:compose")
 include(":common:categories:presentation")
 
+include(":common:transaction:api")
+include(":common:transaction:data")
+include(":common:transaction:compose")
+include(":common:transaction:presentation")
+
 include(":common:core")
 include(":common:core-compose")
 include(":common:core-utils")

@@ -6,3 +6,4 @@ data class Category(
     val icon: Int,
     val spendMoney: Int?
 )
+

@@ -16,7 +16,8 @@ data class FinanceAppColors(
     val tagColor: Color,
     val tagTextColor: Color,
     val defaultBackground: Color,
-    val defaultBackgroundBorder: Color
+    val defaultBackgroundBorder: Color,
+    val fabButtonColor:Color
 )
 
 val palette = FinanceAppColors(
@@ -33,6 +34,7 @@ val palette = FinanceAppColors(
     tagTextColor = Color(0xFF44A9F4),
     defaultBackground = Color(0xffffffff),
     defaultBackgroundBorder = Color(0xFFFBF8F8),
+    fabButtonColor = Color(0xff0d2b10),
 )
 
 val LocalColorProvider = staticCompositionLocalOf<FinanceAppColors> { error("No default implementation") }

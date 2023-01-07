@@ -1,7 +1,7 @@
 import com.rodkin.financeapp_kmm.categories.api.R
 import models.Category
 
-fun mockAndroidCategory(): List<Category> =
+actual fun mockAndroidCategory(): List<Category> =
     listOf(
         Category(
             1,
