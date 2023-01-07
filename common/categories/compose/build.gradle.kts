@@ -8,8 +8,8 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(Dependencies.Kodein.core)
-                api(project(":common:categories:api"))
                 implementation(Dependencies.Other.ViewModel.core)
+                api(project(":common:categories:api"))
                 implementation(project(":common:core"))
             }
         }

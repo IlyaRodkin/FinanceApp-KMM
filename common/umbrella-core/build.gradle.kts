@@ -10,9 +10,7 @@ kotlin {
                 implementation(project(":common:core"))
                 implementation(project(":common:core-utils"))
 
-                  implementation(project(":common:categories:data"))
-  //              implementation(project(":common:games:data"))
-    //            implementation(project(":common:tournaments:data"))
+                implementation(project(":common:categories:data"))
 
                 implementation(Dependencies.Kodein.core)
             }

@@ -13,12 +13,6 @@ kotlin {
 
                 implementation(project(":common:dashboard:compose"))
 
-                //implementation(project(":common:auth:data"))
-                //implementation(project(":common:auth:compose"))
-                //implementation(project(":common:main:compose"))
-                //implementation(project(":common:games:data"))
-                //implementation(project(":common:tournaments:data"))
-
                 implementation(Dependencies.Other.ViewModel.core)
                 implementation(Dependencies.Other.ViewModel.compose)
                 implementation(Dependencies.Other.ViewModel.odyssey)
