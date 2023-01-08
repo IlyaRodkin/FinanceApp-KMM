@@ -37,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.rodkin.financeapp_kmm.dashboard.compose.R
 import navigation.NavigationTree
+import ru.alexgladkov.odyssey.compose.extensions.present
 import ru.alexgladkov.odyssey.compose.extensions.push
 import ru.alexgladkov.odyssey.compose.local.LocalRootController
 import theme.Theme
@@ -66,7 +67,7 @@ fun DashboardScreen() {
                 .padding(16.dp)
                 .size(64.dp)
                 .align(Alignment.BottomEnd),
-            onClick = { rootController.push(NavigationTree.Transaction.Transaction.name) },
+            onClick = { rootController.findRootController().push(NavigationTree.Transaction.TransactionFlow.name) },
             shape = RoundedCornerShape(100),
             colors = ButtonDefaults.buttonColors(
                 backgroundColor = Theme.colors.fabButtonColor,

@@ -10,6 +10,9 @@ kotlin {
                 implementation(project(":common:core-compose"))
                 implementation(project(":common:core-utils"))
 
+                implementation(project(":common:categories:compose"))
+                implementation(project(":common:transaction:presentation"))
+
                 implementation(Dependencies.Other.ViewModel.compose)
                 implementation(Dependencies.Other.ViewModel.odyssey)
 

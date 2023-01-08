@@ -33,7 +33,7 @@ val palette = FinanceAppColors(
     tagColor = Color(0x1844A9F4),
     tagTextColor = Color(0xFF44A9F4),
     defaultBackground = Color(0xffffffff),
-    defaultBackgroundBorder = Color(0xFFFBF8F8),
+    defaultBackgroundBorder = Color(0xffe3e3e3),
     fabButtonColor = Color(0xff0d2b10),
 )
 

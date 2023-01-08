@@ -11,6 +11,7 @@ kotlin {
                 implementation(Dependencies.Other.ViewModel.core)
                 api(project(":common:categories:api"))
                 implementation(project(":common:core"))
+                implementation(project(":common:core-compose"))
             }
         }
     }

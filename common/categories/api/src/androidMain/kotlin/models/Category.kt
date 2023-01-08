@@ -43,5 +43,25 @@ actual fun mockAndroidCategory(): List<Category> =
             "Food",
             R.drawable.food_icon,
             null
+        ),Category(
+            7,
+            "Housing",
+            R.drawable.housing_icon,
+            null
+        ),Category(
+            8,
+            "Food",
+            R.drawable.food_icon,
+            null
+        ),Category(
+            7,
+            "Housing",
+            R.drawable.housing_icon,
+            null
+        ),Category(
+            8,
+            "Food",
+            R.drawable.food_icon,
+            null
         )
     )

@@ -7,3 +7,7 @@ data class Category(
     val spendMoney: Int?
 )
 
+enum class MainCategoryEnum {
+    Expenses, Incomes
+}
+
